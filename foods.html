@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Calvin | Foods</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html">Calvs.</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html#about">About</a>
+            <a class="nav-link" href="travels.html">Travels</a>
+            <a class="nav-link active" href="foods.html">Foods</a>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+    <section class="foods-hero">
+        <div class="container d-flex align-items-center justify-content-center">
+            <div class="text-center">
+                <h1 class="site-title">A Taste of My Favorites</h1>
+                <p class="site-desc">
+                    Flavors I love, dishes I crave, and meals that bring comfort and joy. 
+                    Each bite tells a story of taste, memories, and moments worth savoring.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="foods-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <h2 class="foods-category">Main Dishes</h2>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="foods-card">
+                        <img src="assets/dish1.jpg" alt="Main Dish 1">
+                        <div class="foods-card-body">
+                            <h5>Sinigang</h5>
+                            <p>Sinigang is my favorite because of its comforting sour broth that instantly warms me up. 
+                               I love how the balance of flavors makes every spoonful refreshing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="foods-card">
+                        <img src="assets/dish2.jpg" alt="Main Dish 2">
+                        <div class="foods-card-body">
+                            <h5>Adobo</h5>
+                            <p>Adobo is special to me because of its rich, savory taste and tender meat. 
+                               I like it since it feels familiar and comforting, especially when paired with rice.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="foods-card">
+                        <img src="assets/dish3.jpg" alt="Main Dish 3">
+                        <div class="foods-card-body">
+                            <h5>Ginisang Ampalaya</h5>
+                            <p>Ginisang Ampalaya is something I enjoy because of its unique bitter flavor that grows on you. 
+                               I like it because it feels healthy and simple, yet still very flavorful.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12 mb-4">
+                    <h2 class="foods-category">Desserts</h2>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="foods-card">
+                        <img src="assets/dessert1.jpg" alt="Dessert 1">
+                        <div class="foods-card-body">
+                            <h5>Leche Plan</h5>
+                            <p>Leche Flan is something I really like because of its silky texture and rich sweetness. 
+                               I enjoy it because the caramel flavor makes it feel indulgent and comforting.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="foods-card">
+                        <img src="assets/dessert2.jpg" alt="Dessert 2">
+                        <div class="foods-card-body">
+                            <h5>Halo-halo</h5>
+                            <p>Halo-halo is something I love because it’s refreshing and full of different textures and flavors. 
+                               I enjoy it especially on hot days since it’s colorful, fun, and perfectly sweet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="foods-card">
+                        <img src="assets/dessert3.jpg" alt="Dessert 3">
+                        <div class="foods-card-body">
+                            <h5>Ube Halaya</h5>
+                            <p>Ube Halaya is special to me because of its smooth, creamy texture and deep ube flavor. 
+                               I like it because it has a unique taste that stands out and uniquely Filipino..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <p class="footer-copy">
+        © 2026 Calvin. All rights reserved.
+    </p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("scrolled", window.scrollY > 50);
+    });
+</script>
+
+</body>
+</html>

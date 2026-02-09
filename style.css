@@ -1,0 +1,300 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 1rem 2rem;
+    background: transparent;
+    transition: background 0.3s ease;
+}
+
+.navbar.scrolled {
+    background: #111;
+}
+
+.navbar-brand {
+    font-family: "Pacifico", cursive;
+    color: #fff !important;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin: 0 12px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #00bfff !important;
+}
+
+.site-content {
+    min-height: 100vh;
+    padding-top: 80px;
+    background-image: url("assets/bg1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-text {
+    min-height: calc(100vh - 80px);
+}
+
+.site-title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.site-desc {
+    color: whitesmoke;
+    font-size: 1rem;
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.about-section {
+    min-height: 100vh;
+    padding-top: 80px;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #222;
+}
+
+.about-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.about-img {
+    max-width: 320px;
+    box-shadow: 0 10px 30px rgba(0,0,0,1);
+}
+
+.quotes-section {
+    padding: 80px 0;
+    background: #000000;
+}
+
+.quotes-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.quotes-card-body {
+    padding: 20px;
+}
+
+.quotes-card-body h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.quotes-card-body p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.quotes-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.goals-section {
+    background-color: #f8f9fa;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.goal-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.goal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #078ebb;
+}
+
+.goal-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.site-footer {
+    background: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-copy {
+    color: #888;
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.travels-hero {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.travels-hero .carousel,
+.travels-hero .carousel-inner,
+.travels-hero .carousel-item,
+.travels-hero img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    color: #fff;
+}
+
+.travels-section {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+
+.travel-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.travel-card:hover {
+    transform: translateY(-8px);
+}
+
+.travel-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.travel-card-body {
+    padding: 20px;
+}
+
+.travel-card-body h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.travel-card-body p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.foods-hero {
+    min-height: 70vh;
+    padding-top: 80px;
+    background-image: url("assets/foodfeature.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.foods-section {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.foods-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.foods-card:hover {
+    transform: translateY(-8px);
+}
+
+.foods-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.foods-card-body {
+    padding: 20px;
+}
+
+.foods-card-body h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.foods-card-body p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.foods-category {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    border-left: 5px solid #000000;
+    padding-left: 15px;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+
+        padding: 1rem;
+        margin-top: 10px;
+        border-radius: 12px;
+
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-link {
+        margin: 12px 0;
+    }
+}
+
